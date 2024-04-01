@@ -2,4 +2,4 @@
 
 ## Dodano je rjesenje zadace 4
 
-Prenamijenjeni su fileovi s predavanja, a nalaze se u 'src/py_pubsub/py_pubsub'
+Prenamijenjeni su fileovi s predavanja, a nalaze se u `src/py_pubsub/py_pubsub`
