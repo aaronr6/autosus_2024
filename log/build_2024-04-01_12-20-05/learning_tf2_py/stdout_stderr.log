@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+running install_scripts
+Installing goal_broadcaster script to /home/aaron/autosus_2024/install/learning_tf2_py/lib/learning_tf2_py
+Installing turtle_control script to /home/aaron/autosus_2024/install/learning_tf2_py/lib/learning_tf2_py

@@ -1,0 +1,4 @@
+[console_scripts]
+goal_broadcaster = learning_tf2_py.goal_broadcaster:main
+turtle_control = learning_tf2_py.turtle_control:main
+

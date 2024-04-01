@@ -1,0 +1,19 @@
+[0.596s] Invoking command in '/home/aaron/autosus_2024/src/learning_tf2_py': PYTHONPATH=/home/aaron/autosus_2024/build/learning_tf2_py/prefix_override:/home/aaron/autosus_2024/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/aaron/autosus_2024/build/learning_tf2_py/build install --record /home/aaron/autosus_2024/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[0.830s] running egg_info
+[0.831s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.831s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.831s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.831s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.833s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.833s] adding license file 'LICENSE'
+[0.834s] running build
+[0.834s] running build_py
+[0.834s] running install
+[0.839s] running install_lib
+[0.841s] running install_data
+[0.841s] running install_egg_info
+[0.843s] running install_scripts
+[0.859s] Installing goal_broadcaster script to /home/aaron/autosus_2024/install/learning_tf2_py/lib/learning_tf2_py
+[0.859s] Installing turtle_control script to /home/aaron/autosus_2024/install/learning_tf2_py/lib/learning_tf2_py
+[0.878s] Invoked command in '/home/aaron/autosus_2024/src/learning_tf2_py' returned '0': PYTHONPATH=/home/aaron/autosus_2024/build/learning_tf2_py/prefix_override:/home/aaron/autosus_2024/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/aaron/autosus_2024/build/learning_tf2_py/build install --record /home/aaron/autosus_2024/build/learning_tf2_py/install.log --single-version-externally-managed install_data
