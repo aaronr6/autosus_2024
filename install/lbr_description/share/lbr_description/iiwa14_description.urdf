@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<robot name="KUKA_LBR_IIWA_14">
+    <!-- Define links -->
+    
+    <link name="link0">
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_0.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_0.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <link name="link1">
+        <visual>
+        <origin xyz="0 0 -0.157" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_1.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_1.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <link name="link2">
+        <visual>
+        <origin xyz="0 0 -0.36" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_2.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_2.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <link name="link3">
+        <visual>
+        <origin xyz="0 0 -0.597" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_3.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_3.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <link name="link4">
+        <visual>
+        <origin xyz="0 0 -0.78" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_4.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_4.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <link name="link5">
+        <visual>
+        <origin xyz="0 0 -0.997" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_5.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_5.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <link name="link6">
+        <visual>
+        <origin xyz="0 0 -1.18" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_6.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_6.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <link name="link7">
+        <visual>
+        <origin xyz="0 0 -1.271" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/visual/link_7.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="file:///home/aaron/autosus_2024/src/lbr_description/meshes/iiwa14/collision/link_7.stl"/>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <!-- Define joints -->
+    <joint name="0_1" type="revolute">
+        <origin xyz="0 0 0.157" rpy="0 0 0"/>
+        <parent link="link0"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="1_2" type="revolute">
+        <origin xyz="0 0 0.203" rpy="0 0 0"/>
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="2_3" type="revolute">
+        <origin xyz="0 0 0.237" rpy="0 0 0"/>
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="3_4" type="revolute">
+        <origin xyz="0 0 0.183" rpy="0 0 3.14"/>
+        <parent link="link3"/>
+        <child link="link4"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="4_5" type="revolute">
+        <origin xyz="0 0 0.217" rpy="0 0 3.14"/>
+        <parent link="link4"/>
+        <child link="link5"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="5_6" type="revolute">
+        <origin xyz="0 0 0.183" rpy="0 0 0"/>
+        <parent link="link5"/>
+        <child link="link6"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="6_7" type="revolute">
+        <origin xyz="0 0 0.091" rpy="0 0 0"/>
+        <parent link="link6"/>
+        <child link="link7"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <!-- Repeat for other joints -->
+
+</robot>
+    

@@ -1,0 +1,18 @@
+[0.567s] Invoking command in '/home/aaron/autosus_2024/src/lbr_description': PYTHONPATH=/home/aaron/autosus_2024/build/lbr_description/prefix_override:/home/aaron/autosus_2024/install/lbr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lbr_description build --build-base /home/aaron/autosus_2024/build/lbr_description/build install --record /home/aaron/autosus_2024/build/lbr_description/install.log --single-version-externally-managed install_data
+[0.790s] running egg_info
+[0.790s] writing ../../build/lbr_description/lbr_description.egg-info/PKG-INFO
+[0.790s] writing dependency_links to ../../build/lbr_description/lbr_description.egg-info/dependency_links.txt
+[0.790s] writing entry points to ../../build/lbr_description/lbr_description.egg-info/entry_points.txt
+[0.790s] writing requirements to ../../build/lbr_description/lbr_description.egg-info/requires.txt
+[0.790s] writing top-level names to ../../build/lbr_description/lbr_description.egg-info/top_level.txt
+[0.792s] reading manifest file '../../build/lbr_description/lbr_description.egg-info/SOURCES.txt'
+[0.792s] adding license file 'LICENSE'
+[0.792s] running build
+[0.792s] running build_py
+[0.793s] running install
+[0.797s] running install_lib
+[0.798s] running install_data
+[0.799s] running install_egg_info
+[0.800s] running install_scripts
+[0.816s] Installing state_publisher script to /home/aaron/autosus_2024/install/lbr_description/lib/lbr_description
+[0.836s] Invoked command in '/home/aaron/autosus_2024/src/lbr_description' returned '0': PYTHONPATH=/home/aaron/autosus_2024/build/lbr_description/prefix_override:/home/aaron/autosus_2024/install/lbr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lbr_description build --build-base /home/aaron/autosus_2024/build/lbr_description/build install --record /home/aaron/autosus_2024/build/lbr_description/install.log --single-version-externally-managed install_data
